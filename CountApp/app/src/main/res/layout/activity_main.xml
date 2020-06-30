@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textcount"
+        android:layout_width="355dp"
+        android:layout_height="429dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="100sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="15sp"
+            tools:ignore="ButtonStyle,HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="877dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="15sp"
+            tools:ignore="ButtonStyle,HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="878dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            android:textSize="15sp"
+            tools:ignore="ButtonStyle,HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="225dp"
+            tools:layout_editor_absoluteY="880dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:text="TOAST"
+            android:textSize="15sp"
+            tools:ignore="ButtonStyle,HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="364dp"
+            tools:layout_editor_absoluteY="880dp"
+            android:onClick="display"/>
+    </LinearLayout>
+
+</LinearLayout>

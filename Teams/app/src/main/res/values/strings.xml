@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Teams</string>
+    <string name="reset">RESET</string>
+    <string name="res">Reset</string>
+</resources>
